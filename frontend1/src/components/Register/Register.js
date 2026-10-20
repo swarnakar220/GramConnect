@@ -36,9 +36,9 @@ const Register = () => {
     }
 
     const endpoint =
-      loginType === 'citizen'
-        ? 'http://localhost:5000/api/auth/register/citizen'
-        : 'http://localhost:5000/api/auth/register/admin';
+  loginType === 'citizen'
+    ? 'https://gramconnect-6d18.onrender.com/api/auth/register/citizen'
+    : 'https://gramconnect-6d18.onrender.com/api/auth/register/admin';
 
     const designationRoleMap = {
       grampanchayat_official: 'sarpanch',
