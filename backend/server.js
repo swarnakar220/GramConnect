@@ -19,6 +19,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
+    'https://gram-connect-eight.vercel.app',
     'https://gram-connect.vercel.app'
   ],
   credentials: true
