@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import './Home.css';
 import {
-  FaUserFriends,
-  FaUserShield,
-  FaWhatsapp,
+  
   FaUsers,
   FaFileAlt,
   FaAward,
@@ -28,7 +26,7 @@ const dummyImages = [
 ];
 
 const Home = () => {
-  const navigate = useNavigate();
+ 
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
