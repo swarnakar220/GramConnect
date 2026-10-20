@@ -90,7 +90,7 @@ const Schemes = () => {
     const fetchSchemes = async () => {
       try {
        const res = await axios.get(
-  'http://localhost:5000/api/schemes'
+  'https://gramconnect-6d18.onrender.com/api/schemes'
 );
         const backendSchemes = res.data.map((scheme) => ({
           icon: iconMap[scheme.category] || Award,

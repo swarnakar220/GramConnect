@@ -13,7 +13,7 @@ import {
 import { Link } from 'react-router-dom';
 import './AdminGrievances.css';
 
-const API = 'http://localhost:5000/api/grievances/admin';
+const API = 'https://gramconnect-6d18.onrender.com/api/grievances/admin';
 
 const AdminGrievances = () => {
   const [grievances, setGrievances] = useState([]);
